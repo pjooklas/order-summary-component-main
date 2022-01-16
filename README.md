@@ -25,11 +25,11 @@ Users should be able to:
 ### Screenshot
 
 ![](./images/screenshot.jpg)
-
-
+ 
+ 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/pjooklas/order-summary-component-main)
+- Solution URL: [Add solution URL here](https://pjooklas.github.io/order-summary-component-main/)
 
 ## My process
 
