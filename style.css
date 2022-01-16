@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-image: url("./Images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.icon {
+  height: 3rem;
+  object-fit: contain;
+}
+
+.link-no-decoration {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+}
+
+.link-no-decoration:hover {
+  color: hsl(223, 47%, 23%); 
+}
+
+.font {
+  font-family: 'Poppins', sans-serif;
+}
+
+.weight900 {
+  font-weight: 900;
+}
+.weight700 {
+  font-weight: 700;
+}
+.weight500 {
+  font-weight: 500;
+  color: grey;
+}
+
+.btn-blue {
+  background-color: #382ae1;
+  color: white;
+}
+.btn-blue:hover {
+  background-color: #766cf1;
+  color: white;
+}
+
+.myborderradius {
+  border-radius: 0.5rem;
+}
+.myborderradius2 {
+  border-radius: 1rem;
+}
+.topborderradius {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.nohoverdecoration:hover {
+  text-decoration: none;
+}
+
+.backgroundpale {
+  background-color: #f8f9fe;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 50%;
+  }
+
+}
+@media (min-width: 1440px) {
+  .container {
+    max-width: 30%;
+  }
+}
